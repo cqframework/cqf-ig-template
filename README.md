@@ -1,2 +1,4 @@
 # cqf-ig-template
-Base template for IGs
+CQF's base FHIR Implementation Guide template.
+
+Based on HL7 template: https://github.com/HL7/ig-template-base
