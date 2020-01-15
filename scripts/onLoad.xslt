@@ -83,15 +83,15 @@
         <xsl:with-param name="value" select="'true'"/>
       </xsl:call-template>
     </xsl:if>
-    <!-- <xsl:call-template name="setParameter">
+    <xsl:call-template name="setParameter">
       <xsl:with-param name="code" select="'path-resource'"/>
       <xsl:with-param name="value" select="'input/capabilities'"/>
-    </xsl:call-template> -->
+    </xsl:call-template>
     <xsl:call-template name="setParameter">
       <xsl:with-param name="code" select="'path-resource'"/>
       <xsl:with-param name="value" select="'input/examples'"/>
     </xsl:call-template>
-    <!-- <xsl:call-template name="setParameter">
+    <xsl:call-template name="setParameter">
       <xsl:with-param name="code" select="'path-resource'"/>
       <xsl:with-param name="value" select="'input/extensions'"/>
     </xsl:call-template>
@@ -102,18 +102,14 @@
     <xsl:call-template name="setParameter">
       <xsl:with-param name="code" select="'path-resource'"/>
       <xsl:with-param name="value" select="'input/operations'"/>
-    </xsl:call-template> -->    
+    </xsl:call-template>
+    <xsl:call-template name="setParameter">
+      <xsl:with-param name="code" select="'path-resource'"/>
+      <xsl:with-param name="value" select="'input/profiles'"/>
+    </xsl:call-template>
     <xsl:call-template name="setParameter">
       <xsl:with-param name="code" select="'path-resource'"/>
       <xsl:with-param name="value" select="'input/resources'"/>
-    </xsl:call-template>
-    <xsl:call-template name="setParameter">
-      <xsl:with-param name="code" select="'path-resource'"/>
-      <xsl:with-param name="value" select="'input/resources/capabilitystatement'"/>
-    </xsl:call-template>
-    <xsl:call-template name="setParameter">
-      <xsl:with-param name="code" select="'path-resource'"/>
-      <xsl:with-param name="value" select="'input/resources/profiles'"/>
     </xsl:call-template>
     <xsl:call-template name="setParameter">
       <xsl:with-param name="code" select="'path-resource'"/>
@@ -129,23 +125,27 @@
     </xsl:call-template>
     <xsl:call-template name="setParameter">
       <xsl:with-param name="code" select="'path-resource'"/>
+      <xsl:with-param name="value" select="'input/resources/structuredefinition'"/>
+    </xsl:call-template>
+    <xsl:call-template name="setParameter">
+      <xsl:with-param name="code" select="'path-resource'"/>
       <xsl:with-param name="value" select="'input/resources/questionnaire'"/>
     </xsl:call-template>
     <xsl:call-template name="setParameter">
       <xsl:with-param name="code" select="'path-resource'"/>
-      <xsl:with-param name="value" select="'input/terminology'"/>
+      <xsl:with-param name="value" select="'input/vocabulary'"/>
     </xsl:call-template>
     <xsl:call-template name="setParameter">
       <xsl:with-param name="code" select="'path-resource'"/>
-      <xsl:with-param name="value" select="'input/terminology/codesystem'"/>
+      <xsl:with-param name="value" select="'input/vocabulary/codesystem'"/>
     </xsl:call-template>
     <xsl:call-template name="setParameter">
       <xsl:with-param name="code" select="'path-resource'"/>
-      <xsl:with-param name="value" select="'input/terminology/valueset'"/>
+      <xsl:with-param name="value" select="'input/vocabulary/valueset'"/>
     </xsl:call-template>
     <xsl:call-template name="setParameter">
       <xsl:with-param name="code" select="'path-pages'"/>
-      <xsl:with-param name="value" select="'input/pages'"/>
+      <xsl:with-param name="value" select="'input/pagecontent'"/>
     </xsl:call-template>
     <xsl:call-template name="setParameter">
       <xsl:with-param name="code" select="'path-pages'"/>
@@ -205,6 +205,10 @@
     </xsl:call-template>
     <xsl:call-template name="setParameter">
       <xsl:with-param name="code" select="'apply-version'"/>
+      <xsl:with-param name="value" select="'true'"/>
+    </xsl:call-template>
+    <xsl:call-template name="setParameter">
+      <xsl:with-param name="code" select="'active-tables'"/>
       <xsl:with-param name="value" select="'true'"/>
     </xsl:call-template>
   </xsl:template>
