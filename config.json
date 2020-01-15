@@ -5,7 +5,7 @@
 		"onGenerate": "onGenerate"
 	},
 	"_extraTemplates-documentation": "This array of objects identifies additional templates available for generation for different resource types",
-  	"extraTemplates": [
+	"extraTemplates": [
 		{
 		"name": "mappings",
 		"description": "Mappings"
@@ -32,13 +32,11 @@
     	{
 			"folder": "input/includes",
 			"relativePath": "_includes"
-		}, 
-		{
+		}, {
 			"folder": "input/data",
 			"relativePath": "_data"
-		}, 
-		{
-			"folder": "input/pages",
+		}, {
+			"folder": "input/pagecontent",
 			"relativePath": "_includes"
 		}
 	],
