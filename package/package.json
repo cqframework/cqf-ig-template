@@ -5,9 +5,9 @@
   "license": "CC0-1.0",
   "description": "CQF FHIR Template",
   "author": "CQFramework",
-  "canonical": "http://github.com/cqframework/cqf-ig-template",
+  "canonical": "http://fhir.org/templates/cqf.fhir.template",
   "base": "fhir.base.template",
   "dependencies": {
-    "fhir.base.template": "0.0.2"
+    "fhir.base.template": "current"
   }
 }

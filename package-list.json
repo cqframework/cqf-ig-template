@@ -2,13 +2,22 @@
     "package-id" : "cqf.fhir.template",
     "title" : "CQF FHIR Template",
     "canonical" : "http://fhir.org/templates/cqf.fhir.template",
-    "introduction" : "This is the basic template",
+    "introduction" : "This is the base CQF IG template",
     "list" : [
       {
         "version" : "current",
         "desc" : "Continuous Integration Build (latest in version control)",
-        "path" : "https://build.fhir.org/ig/HL7/cqf-ig-template",
+        "path" : "https://build.fhir.org/templates/cqframework/cqf-ig-template",
         "status" : "ci-build",
+        "current" : true
+      },
+      {
+        "version" : "0.0.2",
+        "date" : "2020-02-03",
+        "desc" : "First Release",
+        "path" : "http://fhir.org/templates/cqf.fhir.template/0.0.2",
+        "status" : "release",
+        "sequence" : "Publications",
         "current" : true
       }
     ]
