@@ -6,10 +6,10 @@
   --btn-hover-color: #014384;  /* 6. Menu button hover color */
 }
 
-/* Generic settings common to all HL7 IGs */
+/* Generic settings common to all content IGs */
 :root {
   --stripe-bg-color: #999999; /* 5. Header strip color */
-  --btn-active-color: #da0c23; /* 7. Menu button active color */
+  --btn-active-color: #014384; /* 7. Menu button active color */
   --btn-text-color: #e6e6e6; /* 8. Menu button text color */
   --stu-note-background-color: #fff2ff; /* 19. (STU) Note box background color */
   --stu-note-border-left-color: #ffa0ff; /* 20. (STU) Note box border color */
