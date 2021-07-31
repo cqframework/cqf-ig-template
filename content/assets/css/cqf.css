@@ -2,7 +2,7 @@
 :root {
   --navbar-bg-color: #105EAB; /* 2. Header container color */
   --footer-bg-color: #505050; /* 3. Footer background color*/
-  --footer-container-color: #105EAB; /* 4. Footer container color */
+  --footer-container-bg-color: #105EAB; /* 4. Footer container color */
   --btn-hover-color: #014384;  /* 6. Menu button hover color */
 }
 
