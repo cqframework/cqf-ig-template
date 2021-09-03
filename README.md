@@ -1,5 +1,7 @@
 # cqf-ig-template
-CQF's base template for FHIR Implementation Guides.
+This IG provides a base template for Clinical Quality Framework FHIR Implementation Guides.
+
+The [Clinical Quality Framework](https://confluence.hl7.org/display/CQIWC/Clinical+Quality+Framework) is a joint effort by the Clinical Decision Support and Clinical Quality Information Work Groups to identify, develop, and harmonize standards that promote integration and reuse between Clinical Decision Support (CDS) and Clinical Quality Measurement (CQM).
 
 package-id cqf.fhir.template
 
