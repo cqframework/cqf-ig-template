@@ -17,15 +17,6 @@
             "path": "http://fhir.org/templates/cqf.fhir.template/0.0.2",
             "status": "release",
             "sequence": "Publications",
-            "current": false
-        },
-        {
-            "version": "0.0.3",
-            "date": "2021-01-18",
-            "desc": "Second Release",
-            "path": "http://fhir.org/templates/cqf.fhir.template/0.0.3",
-            "status": "release",
-            "sequence": "Publications",
             "current": true
         }
     ]
