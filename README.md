@@ -5,5 +5,4 @@ The [Clinical Quality Framework](https://confluence.hl7.org/display/CQIWC/Clinic
 
 package-id cqf.fhir.template
 
-
 Based on HL7 template: https://github.com/HL7/ig-template-base
