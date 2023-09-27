@@ -11,10 +11,19 @@
             "current": true
         },
         {
-            "version": "0.0.2",
+            "version": "0.2.0",
             "date": "2020-02-03",
             "desc": "First Release",
-            "path": "http://fhir.org/templates/cqf.fhir.template/0.0.2",
+            "path": "http://fhir.org/templates/cqf.fhir.template/0.2.0",
+            "status": "release",
+            "sequence": "Publications",
+            "current": true
+        },
+        {
+            "version": "0.3.0",
+            "date": "2023-09-27",
+            "desc": "Update to Base FHIR Template 0.6.0",
+            "path": "http://fhir.org/templates/cqf.fhir.template/0.3.0",
             "status": "release",
             "sequence": "Publications",
             "current": true
