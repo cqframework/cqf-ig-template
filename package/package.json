@@ -1,13 +1,14 @@
 {
-  "name": "cqf.fhir.template",
-  "version": "0.4.0",
-  "type": "fhir.template",
-  "license": "CC0-1.0",
-  "description": "CQF FHIR Template",
-  "author": "CQFramework",
-  "canonical": "http://fhir.org/templates/cqf.fhir.template",
-  "base": "fhir.base.template",
-  "dependencies": {
-    "fhir.base.template": "0.6.0"
-  }
+  "name" : "cqf.fhir.template",
+  "type" : "fhir.template",
+  "license" : "CC0-1.0",
+  "description" : "CQF FHIR Template",
+  "author" : "CQFramework",
+  "canonical" : "http://fhir.org/templates/cqf.fhir.template",
+  "base" : "fhir.base.template",
+  "dependencies" : {
+    "fhir.base.template" : "0.8.0"
+  },
+  "version" : "0.6.0",
+  "date" : "20240425221526"
 }
