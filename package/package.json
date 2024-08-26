@@ -7,8 +7,8 @@
   "canonical" : "http://fhir.org/templates/cqf.fhir.template",
   "base" : "fhir.base.template",
   "dependencies" : {
-    "fhir.base.template" : "0.8.0"
+    "fhir.base.template" : "0.8.1"
   },
-  "version" : "0.6.0",
-  "date" : "20240425221526"
+  "version" : "0.7.0",
+  "date" : "2024-07-06"
 }
