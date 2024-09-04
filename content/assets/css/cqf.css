@@ -73,8 +73,39 @@
   font-weight: bold;
 }
 
+/* 
+==================================
+JSON/XML/TTL Example Styling Start
+==================================
+*/
 
-/* Liquid Narrative Styling */
+pre.json {
+  width: 100%;
+  overflow: scroll;
+}
+
+pre.xml {
+  width: 100%;
+  overflow: scroll;
+}
+
+pre.rdf {
+  width: 100%;
+  overflow: scroll;
+}
+
+/* 
+==================================
+JSON/XML/RTL Example Styling End
+==================================
+*/
+
+
+/* 
+===============================
+Liquid Narrative Styling Start
+===============================
+*/
 
 .narrative-table {
   border: 1pt inset rgb(0, 0, 0);
@@ -147,3 +178,9 @@
     max-width: 873px;
   }
 }
+
+/* 
+===============================
+Liquid Narrative Styling End
+===============================
+*/
