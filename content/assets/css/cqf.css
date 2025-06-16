@@ -111,8 +111,7 @@ Liquid Narrative Styling Start
   border: 1pt inset rgb(0, 0, 0);
   line-height: 10pt;
   border-collapse: separate;
-  -webkit-border-horizontal-spacing: 2px;
-  -webkit-border-vertical-spacing: 2px;
+  border-spacing: 2px 2px;
 }
 
 .narrative-table>tbody {
