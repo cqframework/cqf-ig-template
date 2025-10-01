@@ -12,13 +12,22 @@
       "current" : true
     },
     {
+      "version" : "1.0.0",
+      "path" : "http://fhir.org/templates/cqf.fhir.template/1.0.0",
+      "status" : "release",
+      "sequence" : "Publications",
+      "fhirversion" : "4.0.1",
+      "desc" : "Upgrade for dependency on fhir.base.template",
+      "date" : "2025-10-01",
+      "current" : true
+    },
+    {
       "version" : "0.7.1",
       "path" : "http://fhir.org/templates/cqf.fhir.template/0.7.1",
       "status" : "release",
       "sequence" : "Publications",
       "fhirversion" : "4.0.1",
       "desc" : "Re-release from the right branch this time",
-      "current" : true,
       "date" : "2024-09-10"
     },
     {
