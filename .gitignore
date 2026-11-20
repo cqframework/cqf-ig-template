@@ -1,2 +1,10 @@
-
 output/
+temp/
+input-cache/
+full-ig.zip
+
+# Local IG Publisher build scripts
+_build.bat
+_genonce.*
+_gencontinuous.*
+_updatePublisher.*
